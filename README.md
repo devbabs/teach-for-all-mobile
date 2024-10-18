@@ -6,14 +6,14 @@ This is a new [**React Native**](https://reactnative.dev) project for the Teach 
 Clone the repository from GitHub using
 
 ```bash
-git clone https://github.com/devbabs/easyteam-embed.git
+git clone git@github.com:devbabs/teach-for-all-mobile.git
 ```
 
 ## Step 2: Navigate to the project folder and install dependencies
 
 ```bash
 # Navigate to project folder
-cd easyteam-embed
+cd teach-for-all-mobile
 # Using npm
 npm i
 # Install all Pod dependencies for iOS
@@ -38,14 +38,7 @@ To start Metro, run the following command from the _root_ of your React Native p
 npm start
 ```
 
-## Step 4: Add environment variables your Application
-Follow these steps to add neccessary values in the root of the project.
-1. Create a file `.env` in the root of the project
-2. Add API_URL=https://easyteam-embed-backend.onrender.com
-
-NB: https://easyteam-embed-backend.onrender.com is the backend for authentication
-
-## Step 5: Start your Application
+## Step 4: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
